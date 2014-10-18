@@ -1,0 +1,49 @@
+{
+  "name": "template-delimiters",
+  "description": "Delimiters for common template engines.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/template-delimiters",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/template-delimiters.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/template-delimiters/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/template-delimiters/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "verb-tag-jscomments": ">= 0.2.0",
+    "verb": ">= 0.2.6",
+    "mocha": "*"
+  },
+  "keywords": [
+    "delim",
+    "delimiter",
+    "engine",
+    "expression",
+    "regex",
+    "regexp",
+    "regular",
+    "syntax",
+    "template"
+  ],
+  "dependencies": {
+    "es6-template-regex": "^0.1.0"
+  }
+}
